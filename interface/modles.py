@@ -24,3 +24,6 @@ def verificate(account, password):
         if data.password == password:
             return True
     return False
+
+if __name__ == '__main__':
+    db.create_all()

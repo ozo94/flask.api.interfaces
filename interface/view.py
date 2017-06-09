@@ -1,6 +1,6 @@
 # coding=utf-8
 from flask import jsonify, request, abort
-from modles import verificate
+from modles import *
 from interface import app
 
 
