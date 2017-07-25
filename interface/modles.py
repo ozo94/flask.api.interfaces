@@ -26,4 +26,5 @@ def verificate(account, password):
     return False
 
 if __name__ == '__main__':
+    # 在数据库中创建新的表，根据上文的代码类产生对应的table
     db.create_all()
