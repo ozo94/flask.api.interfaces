@@ -10,5 +10,4 @@
 >通过命令模拟向指定的url传入json数据，api接收指定数据后，会将其按照格式存入数据库中去的
 ```
 curl -i -H "Content-Type: application/json" -X POST -d "{""account"":""lm"",""password"":""lm12345""}" http://localhost:5000/todo/api/v1.0/tasks
-
 ```
